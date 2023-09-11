@@ -4,82 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="style.css">
     <title>User Registration</title>
 </head>
 
 <body>
-    <h1>Welcome to my page</h1>
-    <br>
-    <h2>This is HTML From</h2>
-    <form action="">
-        <p>User Registration</p>
-        <label for="name">Full Name: </label>
-        <input type="text" placeholder="Enter your name">
-
-        <label for="password">Password: </label>
-        <input type="password" name="password" id="password" placeholder="Enter Your Password">
-
-        <div class="gender">
-            <label for="gender">Gender: </label>
-
-            <label for="male">
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                Male
-            </label>
-
-            <label for="female">
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                Female
-            </label>
-        </div>
-
-        <label for="birthday">Date of birth: </label>
-        <input type="date" id="birthday" name="birthday">
-
-        <div class="address">
-            <label for="address">Address</label>
-            <textarea rows="3" cols="50" name="comment" form="usrform"></textarea>
-        </div>
-
-        <label for="cars">Courses: </label>
-        <select id="courses" name="courses" aria-placeholder="Select">
-            <option disabled selected value="">Select</option>
-            <option value="HTML">HTML</option>
-            <option value="CSS">CSS</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="React">React</option>
-        </select>
-
-
-        <div class="language">
-            <label for="language">Language: </label>
-            <label>
-                <input type="checkbox" name="language" value="english">
-                English
-            </label>
-
-            <label>
-                <input type="checkbox" name="language" value="hindi">
-                Hindi
-            </label>
-
-            <label>
-                <input type="checkbox" name="language" value="bengali">
-                Bengali
-            </label>
-        </div>
-
-        <label for="image">Image:</label>
-        <input type="file" accept=".jpg, .jpeg, .png" />
-
-        <div class="button">
-            <button type="button">Set</button>
-            <button type="button">ReSet</button>
-        </div>
-
-
-    </form>
+    <div class="mainContainer">
+        <h1>Welcome to my page</h1>
+        <br>
+        <h2>This is HTML From</h2>
+        <form action="" class="container">
+            <p>User Registration</p>
+            <label for="name">Full Name: </label>
+            <input type="text" placeholder="Enter your name">
+    
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+    
+            <div class="gender">
+                <label for="gender">Gender: </label>
+    
+                <label for="male">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    Male
+                </label>
+    
+                <label for="female">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    Female
+                </label>
+            </div>
+    
+            <label for="birthday">Date of birth: </label>
+            <input type="date" id="birthday" name="birthday">
+    
+            <div class="address">
+                <label for="address">Address</label>
+                <textarea rows="3" cols="50" name="comment" form="usrform"></textarea>
+            </div>
+    
+            <label for="cars">Courses: </label>
+            <select id="courses" name="courses" aria-placeholder="Select">
+                <option disabled selected value="">Select</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
+    
+    
+            <div class="language">
+                <label for="language">Language: </label>
+                <label>
+                    <input type="checkbox" name="language" value="english">
+                    English
+                </label>
+    
+                <label>
+                    <input type="checkbox" name="language" value="hindi">
+                    Hindi
+                </label>
+    
+                <label>
+                    <input type="checkbox" name="language" value="bengali">
+                    Bengali
+                </label>
+            </div>
+    
+            <label for="image">Image:</label>
+            <input type="file" accept=".jpg, .jpeg, .png" />
+    
+            <div class="button">
+                <button type="button">Set</button>
+                <button type="button">ReSet</button>
+            </div>
+    
+    
+        </form>
+    </div>
 
 
 </body>
